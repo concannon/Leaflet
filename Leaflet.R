@@ -9,6 +9,8 @@ m <- leaflet() %>% addTiles() %>%
   setView(-73.974188,40.732358,zoom=11 ) %>%
   addPopups(-73.911,40.762,'Home!') %>%
   addPopups(-73.987,40.770,'Jack"s BirthPlace') %>%
-  addPopups(-74.00,40.71,'Work')
+  addPopups(-74.00,40.71,'Work') %>%
+  addPopups(-73.923,40.764,"Doctor's Office")
 
 m
+

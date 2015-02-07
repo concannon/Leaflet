@@ -68,7 +68,7 @@ img {
 <div id="header">
 <h1 class="title">Leaflet.R</h1>
 <h4 class="author"><em>Emma</em></h4>
-<h4 class="date"><em>Sat Feb 7 10:35:50 2015</em></h4>
+<h4 class="date"><em>Sat Feb 7 10:52:15 2015</em></h4>
 </div>
 
 
@@ -82,11 +82,12 @@ library(ggmap)</code></pre>
   setView(-73.974188,40.732358,zoom=11 ) %&gt;%
   addPopups(-73.911,40.762,'Home!') %&gt;%
   addPopups(-73.987,40.770,'Jack&quot;s BirthPlace') %&gt;%
-  addPopups(-74.00,40.71,'Work')
+  addPopups(-74.00,40.71,'Work') %&gt;%
+  addPopups(-73.923,40.764,&quot;Doctor's Office&quot;)
 
 m</code></pre>
-<p><div id="htmlwidget-1662" style="width:672px;height:480px;" class="leaflet"></div>
-<script type="application/json" data-for="htmlwidget-1662">{ "x": {
+<p><div id="htmlwidget-556" style="width:672px;height:480px;" class="leaflet"></div>
+<script type="application/json" data-for="htmlwidget-556">{ "x": {
  "calls": [
  {
  "method": "tileLayer",
@@ -160,6 +161,26 @@ null,
              40.71,
               -74,
 "Work",
+null,
+{
+ "maxWidth":               300,
+"minWidth":                50,
+"maxHeight": null,
+"autoPan": true,
+"keepInView": false,
+"closeButton": true,
+"zoomAnimation": true,
+"closeOnClick": null,
+"className": "" 
+} 
+] 
+},
+{
+ "method": "popup",
+"args": [
+            40.764,
+          -73.923,
+"Doctor's Office",
 null,
 {
  "maxWidth":               300,
